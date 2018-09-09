@@ -1,5 +1,1 @@
-task hello {
-     doLast {
-            println 'Hello Java2Novice...'
-}
-}
+apply plugin: 'java'
