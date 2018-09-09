@@ -42,6 +42,6 @@ public class Person3 {
 	 * @return the reversed string
 	 */
 	private String calc(String input) {
-      return input.reverse();
+      return new StringBuilder(input).reverse().toString();
 	}
 }
